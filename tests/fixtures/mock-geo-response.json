@@ -1,0 +1,24 @@
+{
+  "data": {
+    "data": {
+      "searchDashReusableTypeahead": {
+        "elements": [
+          {
+            "title": {
+              "text": "Chennai, Tamil Nadu, India"
+            },
+            "subtitle": {
+              "text": "City"
+            },
+            "trackingUrn": "urn:li:geo:106888327",
+            "entityUrn": "urn:li:fsd_geo:106888327",
+            "$type": "com.linkedin.voyager.dash.search.GeoTypeaheadResult",
+            "target": {
+              "*geo": "urn:li:fsd_geo:106888327"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

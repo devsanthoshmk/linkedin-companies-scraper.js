@@ -1,0 +1,26 @@
+{
+  "search_query": "Real Estate",
+  "location": "Mumbai",
+  "total_pages_fetched": 1,
+  "total_companies": 2,
+  "pages": [
+    {
+      "data": {
+        "data": {
+          "searchDashClustersByAll": {
+            "metadata": {
+              "totalResultCount": 2,
+              "searchId": "example-search-id"
+            },
+            "paging": {
+              "count": 10,
+              "start": 0,
+              "total": 2
+            }
+          }
+        }
+      },
+      "included": []
+    }
+  ]
+}

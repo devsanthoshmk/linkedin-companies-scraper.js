@@ -1,0 +1,89 @@
+{
+  "data": {
+    "data": {
+      "searchDashClustersByAll": {
+        "metadata": {
+          "totalResultCount": 2,
+          "searchId": "mock-search-id",
+          "primaryResultType": "COMPANIES"
+        },
+        "paging": {
+          "count": 10,
+          "start": 0,
+          "total": 2
+        }
+      }
+    }
+  },
+  "included": [
+    {
+      "$type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+      "title": {
+        "text": "Acme Realty"
+      },
+      "primarySubtitle": {
+        "text": "Chennai, Tamil Nadu, India"
+      },
+      "secondarySubtitle": {
+        "text": "10,000 followers"
+      },
+      "summary": {
+        "text": "Commercial real estate company"
+      },
+      "navigationUrl": "https://www.linkedin.com/company/acme-realty",
+      "trackingUrn": "urn:li:company:111",
+      "trackingId": "track-111",
+      "entityUrn": "urn:li:fsd_company:111",
+      "template": "SEARCH_SRP",
+      "badgeText": "Hiring",
+      "primaryActions": [
+        {
+          "type": "FOLLOW"
+        }
+      ],
+      "actorInsights": [
+        {
+          "text": "Growing"
+        }
+      ],
+      "image": {
+        "attributes": [
+          {
+            "detailData": {
+              "imageUrl": "https://cdn.example.com/acme.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+      "title": {
+        "text": "Bravo Estates"
+      },
+      "primarySubtitle": {
+        "text": "Bengaluru, Karnataka, India"
+      },
+      "secondarySubtitle": {
+        "text": "5,000 followers"
+      },
+      "summary": {
+        "text": "Residential real estate services"
+      },
+      "navigationUrl": "https://www.linkedin.com/company/bravo-estates",
+      "trackingUrn": "urn:li:company:222",
+      "trackingId": "track-222",
+      "entityUrn": "urn:li:fsd_company:222",
+      "template": "SEARCH_SRP",
+      "image": {
+        "attributes": [
+          {
+            "detailData": {
+              "imageUrl": "https://cdn.example.com/bravo.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
