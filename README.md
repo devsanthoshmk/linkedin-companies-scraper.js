@@ -40,14 +40,27 @@ linkedin-scraper.js/
 
 ## Installation
 
-You can install the dependencies using `npm` or `pnpm`:
+You can install the dependencies locally or add this module to your project using `npm` or `pnpm`:
 
+### Local Setup
 ```bash
 # Using npm
 npm install
 
 # Using pnpm
 pnpm install
+```
+
+### Add as a Dependency
+To use this in another project, you can install it directly from GitHub:
+
+```bash
+pnpm add github:devsanthoshmk/linkedin-companies-scraper.js#main
+```
+or
+
+```bash
+npm add github:devsanthoshmk/linkedin-companies-scraper.js#main
 ```
 
 Create a `.env` file in the project root:
@@ -59,10 +72,10 @@ LINKEDIN_PASSWORD=your_password
 
 ## Module Usage
 
-You can import and use the scraper's core functionality in your own JavaScript projects.
+If you have installed this as a dependency (using `pnpm add` or `npm install`), you can import the core functions directly:
 
 ```javascript
-import { searchCompanies, extractSession } from './module/index.js';
+import { searchCompanies, extractSession } from 'linkedin-scraper-js';
 
 /**
  * 1. Extract session
@@ -88,6 +101,8 @@ results.companies.forEach(company => {
   console.log(`  URL: ${company.navigationUrl}`);
 });
 ```
+
+> **Note:** If you are working directly within a local clone of this repository, use `import { ... } from './module/index.js';` instead.
 
 ## Quick Start (CLI)
 

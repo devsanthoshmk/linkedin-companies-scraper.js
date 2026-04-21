@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "JavaScript port of the LinkedIn company scraper CLI and module.",
   "type": "module",
+  "main": "./module/index.js",
+  "exports": {
+    ".": "./module/index.js",
+    "./module/*": "./module/*.js"
+  },
   "bin": {
     "linkedin-scraper": "./scraper.js",
     "linkedin-session-extractor": "./module/session-extractor.js",
